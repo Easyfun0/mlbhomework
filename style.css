@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrap{
+  max-width: auto;
+  margin: 0 auto;
+  background-color: #fffaf0;
+}
+.top{
+  background: #000;
+  height: 40px;
+}
+.main{
+  float: right;
+  padding: 10px 10px;
+}
+.clearfix{
+  clear: both;
+}
+.menu{
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 5px 20px -5px #000;
+  height: 60px;
+}
+.logo{
+  float: left;
+}
+.topmenu{
+  float: right;
+  margin-top: 25px;
+}
+.topmenu li{
+  float: left;
+}
+.topmenu a{
+  color: #000;
+  text-decoration: none;
+  padding: 7px;
+}
+.topmenu li a{
+  padding-bottom: 23px;
+  color: black;
+}
+.topmenu li a:hover{
+  border-bottom: 3px solid;
+}
+@media (max-width: 767px) {
+  .logo{
+    float: none;
+    text-align: center;
+  }
+  .topmenu{
+    float: none;
+  }
+  .topmenu li{
+    width: 25%;
+    text-align: center;
+  }
+  .topmenu li a{
+    padding-bottom: 0;
+  }
+}
+.content{
+  background: #fff;
+  background-color: #fffaf0;
+
+}
+.content-a li{
+    float: left;
+    width: 28%;
+    height: 600px;
+    padding:1%;
+    margin:1%;
+    border-right:2px solid #eee;
+    border-bottom:2px solid #eee;
+    border-left:2px solid #eee;
+    box-shadow:0 2px 5px -2px #eee;
+    list-style:none;
+}
+.content-a li img{
+  padding-right: 10px;
+}
+@media (max-width: 767px) {
+  .content-a li{
+    float: none;
+    width: 80%;
+    margin: 30px;
+    height: auto;
+  }
+}
+.content img{
+  margin: 40px auto;
+  display: block;
+}
+.content p{
+  line-height: 1.5em;
+}
+.content h1{
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  color:blue;
+}
+.content-a p{
+  text-align: left;
+}
+.pagedown{
+  height: auto;
+}
+.pagedown img{
+  width: 100%;
+}
+.mlb{
+  text-align: center;
+}
+.mlb2{
+  text-align: center;
+}
+@media (max-width: 768px;) {
+  .pagedown{
+    float: none;
+    width: 100%;
+  }
+}
+.span{
+  color:red;
+  text-align: center;
+}
+#map{
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+.box1{
+  float: left;
+}
+.box2{
+  float: left;
+}
+form{
+  right: 0;
+  top: 0;
+  float: right;
+}
+@media (max-width: 767px) {
+  #map{
+    width: 350px;
+  }
+}
+.footer{
+  height: 50px;
+  background: #000;
+  color: #fff;
+}
