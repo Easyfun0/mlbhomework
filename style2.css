@@ -1,0 +1,111 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.wrap{
+	max-width: auto;
+	margin: auto;
+	background-color: #fffaf0;
+}
+.title{
+	background: #000;
+	height: 40px;
+}
+.menu{
+	float: right;
+	padding: 10px 10px; 
+}
+.header img{
+	width: 100%;
+}
+h2{
+	text-align: center;
+	color:#000;
+	background-color: gray;
+}
+.main{
+	margin-left: 540px;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	background-color:gray; 
+}
+@media (max-width: 769px) {
+	.main{
+		margin: auto;
+	}
+}
+.footer li{
+	margin: 0;
+    float: left;
+    width: 30%;
+    height: 50px;
+}
+@media (max-width: 769px) {
+  .footer li{
+    padding-right: 12px;
+  }
+}
+
+.footer h1{
+	color:red;
+	background-color: blue;
+	size: 3;
+}
+.footer h3{
+	color:green;
+	background-color: blue;
+}
+.footer h4{
+	color:yellow;
+	background-color: blue;
+}
+.footer h4 a{
+	float: right;
+	text-align: right;
+}
+.note{
+	color:blue;
+}
+@media (max-width: 768px) {
+
+}
