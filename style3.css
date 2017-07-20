@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.wrap{
+  max-width: auto;
+  margin:auto;
+  background-color: #fffaf0;
+}
+.title{
+  background: #000;
+  height: 40px;
+}
+.menu{
+  float: right;
+  padding: 10px 10px; 
+}
+.header img{
+  width: 100%;
+  height: auto;
+}
+.aside{
+  height: 380px;
+  padding: 1px;
+  float: left;
+  background-color: pink;
+}
+@media (max-width: 767px) {
+  .aside{
+    float: none;
+    text-align: center;
+    height: 150px;
+  } 
+}
+.main{
+  width: 600px;
+  background-color: #fffaf0;
+}
+.main img{
+  width: 100%;
+}
+.main li{
+  float: right;
+  width: 138px;
+  height: 180px;
+  border: 1px solid #000;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+  margin-bottom: 10px;
+  background-color: #fffaf0;
+}
+.main li h2{
+  font-weight: bold;
+}
+.main li span{
+  color:red;
+  font-size: 20px;
+}
+@media (max-width: 767px) {
+  .main{
+    width: auto;
+  }
+  .main li{
+    margin:0 auto 10px auto;  
+
+    float:none;
+    text-align: center;
+    margin: 100px;    
+  }
+}
+.footer li{
+    margin: 0;
+    float: left;
+    width: 30%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.footer h3{
+  color:green;
+  background-color: blue;
+}
+.footer h4{
+  color:yellow;
+  background-color: blue;
+}
+.footer h5{
+  color:red;
+  background-color: blue;
+}
+.footer h4 a{
+  float: right;
+  text-align: right;
+}
+@media (max-width: 767px;) {
+  .footer{
+    margin-top: 20px;
+  }
+}
+.note{
+  color:blue;
+}
