@@ -43,7 +43,7 @@ table {
 }
 .wrap{
 	max-width: auto;
-	margin: auto;
+	margin:0 auto;
 	background-color: #fffaf0;
 }
 .title{
