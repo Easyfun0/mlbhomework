@@ -189,6 +189,14 @@ form{
     width: 350px;
   }
 }
+#button1{
+  font-size: 10px;
+  color: red;
+}
+#button2{
+  font-size: 10px;
+  color: green;
+}
 .footer{
   height: 50px;
   background: #000;
