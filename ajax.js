@@ -20,14 +20,13 @@ function signup(){
     account.YESorNO = YESorNOStr;
     account.men = menStr;
     account.women =womenStr;
+    console.log(account);
     
 
-    var xhr = new XMLHttpRequest();
-    xhr.open('post','https://hexschool.github.io/ajaxHomework/data.json',true);
-    xhr.setRequestHeader('Content-type','application/json');
-    var data = JSON.stringify(account);
-    xhr.send(account);
-    xhr.onload = function(){
-    	console.log(xhr);
-    }
+    // var xhr = new XMLHttpRequest();
+    // xhr.open('post','https://github.com/Easyfun0/mlbhomework/test.json',true);
+    // xhr.setRequestHeader('Content-type','application/json');
+    // var data = JSON.stringify(account);
+    // xhr.send(data);
+    
 }
