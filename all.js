@@ -1,3 +1,21 @@
+$(document).ready(function() {
+    $('.dropdown').click(function(event) {
+       event.preventDefault();
+       $('.dropdown-open').slideToggle();
+    });
+    $('.dropdown1').click(function(event) {
+       event.preventDefault();
+       $('.dropdown-open1').slideToggle();
+    });
+});
+
+
+
+
+
+
+
+
 var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {

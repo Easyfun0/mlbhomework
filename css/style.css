@@ -69,10 +69,29 @@ table {
 }
 .topmenu{
   float: right;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 .topmenu li{
   float: left;
+  width: 100px;
+  position: relative;
+}
+.topmenu li a{
+  display: block;
+  background: #fff;
+  /*text-align: center;*/
+  /*text-decoration: none;*/
+  /*border: 1px solid gray;*/
+}
+.topmenu li a:hover, .topmenu a.active{
+  color: white;
+  background: blue;
+}
+.topmenu ul{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
 }
 .topmenu a{
   color: #000;
