@@ -79,8 +79,8 @@ table {
 .topmenu li a{
   display: block;
   background: #fff;
-  /*text-align: center;*/
-  /*text-decoration: none;*/
+  text-align: center;
+  text-decoration: none;
   /*border: 1px solid gray;*/
 }
 .topmenu li a:hover, .topmenu a.active{

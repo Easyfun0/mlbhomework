@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/style2.css">
-	<script src="js/all2.js"></script>
 	<title>mlb2</title>
 </head>
 <body>
@@ -23,15 +22,18 @@
 		<h2>超級棒球大聯盟</h2><br>
 		<div class="main">
 			<h1>LOGIN</h1>
-			<form action="home.html">
+			<form action="">
 			<label for="mail">信箱</label><br>
-			<input type="mail" placeholder="EMAIL" id="mail"><br>
+			<input type="mail" placeholder="EMAIL" name="mail" class="account"><br>
 			<label for="passpord">密碼</label><br>
-			<input type="text" placeholder="number" id="passpord"><br>
-
-				<input type="submit" value="message">
-				<input type="submit" value="取消">
+			<input type="text" placeholder="number" name="password" class="password"><br>
+			<input type="button" class="signup" value="送出">
+			<input type="button" class="signin" value="登入">
+			<input type="submit" value="取消">
 			</form>
+			<p class="inor"></p>
+			
+		<script src="ajax2.js"></script>
 		</div>
 		<div id="app">			
 		<div class="clearfix"></div>
