@@ -197,6 +197,9 @@ form{
   font-size: 10px;
   color: green;
 }
+img{
+    max-width: 100%;
+  }
 .footer{
   height: 50px;
   background: #000;
